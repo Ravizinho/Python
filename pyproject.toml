@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "projetoclima"
+version = "3.7"
+description = "Projeto da Accenture para upgrade de conhecimentos"
+authors = ["Fernandes,Ravi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
